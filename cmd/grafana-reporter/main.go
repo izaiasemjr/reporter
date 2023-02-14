@@ -56,7 +56,7 @@ func main() {
 		log.Printf("SSL check enforced")
 	}
 	if !*gridLayout {
-		log.Printf("Using sequential report layout. Consider enabling 'grid-layout' so that your report more closely follow the dashboard layout.")
+		log.Printf("> Using sequential report layout. Consider enabling 'grid-layout' so that your report more closely follow the dashboard layout.")
 	} else {
 		log.Printf("Using grid layout.")
 	}
